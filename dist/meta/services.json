@@ -1,0 +1,12 @@
+[
+  {
+    "name": "meta",
+    "directory": "meta",
+    "type": "default"
+  },
+  {
+    "name": "postgres",
+    "directory": "template",
+    "type": "app"
+  }
+]

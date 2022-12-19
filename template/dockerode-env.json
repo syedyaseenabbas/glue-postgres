@@ -1,0 +1,13 @@
+{
+	"Image": "postgres",
+	"WorkingDir": "/app",
+	"Env": {
+		"POSTGRES_USER":"postgres",
+		"POSTGRES_PASSWORD":"goldtree9",
+		"POSTGRES_DB":"bps"
+	},
+	"ContainerPort": "5432/tcp",
+	"HostPort": "5432",
+	"ExposedPorts":"5432/tcp",
+	"name": "postgres"
+}
